@@ -16,7 +16,9 @@ namespace HelloWorld
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
 
+            string a = null;
 
+            var b=a.ToList();
 
             MessageBox.Show("Hello world, I'm learning Revit API 2025", "Revit api 2025", MessageBoxButton.OK, MessageBoxImage.Information);
             return Result.Succeeded;
