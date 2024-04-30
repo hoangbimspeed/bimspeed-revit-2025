@@ -14,6 +14,12 @@ namespace RevitAddIn1.Commands
     {
         public override void Execute()
         {
+            var a = 1;
+            var b = 2;
+
+            var c = a + b;
+
+
             var viewModel = new RevitAddIn1ViewModel();
             var view = new RevitAddIn1View(viewModel);
             view.ShowDialog();
